@@ -52,9 +52,19 @@ body {
 }
 /* NAVBAR */
 .navbar {
+    
+    
 }
 .container_navbar {
+    
 }
 .navbar_img {
+    color: black;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
 }
 
