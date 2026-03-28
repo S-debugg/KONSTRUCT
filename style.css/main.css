@@ -83,10 +83,10 @@ li:last-child {
 }
 a {
     text-decoration: none;
-    color: rgb(14, 87, 87);
+    color: #48555B;
 }
 a:hover {
-    color: goldenrod;
+    color: #00A4E5;
     transition: all 0.5s ease;
 }
 
