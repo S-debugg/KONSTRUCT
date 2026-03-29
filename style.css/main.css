@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px;
+    padding: 14px 24px 1px 52px;
     border-bottom: 1px solid #ccc;
 }
 .container_navbar {
