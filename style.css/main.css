@@ -94,7 +94,7 @@ a:hover {
 }
 .container_about {
     margin: 58px 250px 118px;
-    border:1px solid #00A4E5;
+    /* border:1px solid #00A4E5; */
 }
 .h3_about {
     font-size: 18px;
@@ -139,17 +139,41 @@ a:hover {
 }
 .photo_about {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
-.photo_about:last-child {
+/* .photo_about:last-child {
     margin-right: 0;
+} */
+.image_plan, .image_manage, .image_build {
+    position: relative; /* Контейнер для позиционирования текста */
+    width: 100%;
+    max-width: 500px; /* Ограничение ширины */
+}
+
+.text_plan, .text_manage, .text_build {
+    position: absolute;
+    top: 14%; /* Смещение сверху */
+    left: 30%; /* Смещение слева */
+    transform: translate(-50%, -50%); /* Центрирование */
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    /* background-color: rgba(0, 0, 0, 0.5); Затемнение для читаемости */
+    padding: 15px;
+    text-transform: uppercase;
 }
 .img_plan {
+    width: 100%;
+    height: auto;
 }
 .img_manage {
+    width: 100%;
+    height: auto;
 }
 .img_build {
 }
+
+
 
 
 
