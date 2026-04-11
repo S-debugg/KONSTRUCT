@@ -158,8 +158,9 @@ a:hover {
     color: white;
     font-size: 24px;
     font-weight: 700;
-    /* background-color: rgba(0, 0, 0, 0.5); Затемнение для читаемости */
+    height: auto;
     padding: 15px;
+    /* background-color: rgba(0, 0, 0, 0.5); Затемнение для читаемости */
     text-transform: uppercase;
 }
 .img_plan {
@@ -171,7 +172,51 @@ a:hover {
     height: auto;
 }
 .img_build {
+    width: 100%;
+    height: auto;
 }
+
+/* services */
+
+.services {
+}
+.container_services {
+}
+.title_services {
+}
+.text_services {
+}
+.line_services {
+}
+.p_services {
+}
+.items_services {
+}
+.item_project {
+}
+.img_services_project {
+}
+.services_project_text {
+}
+.services_project_p {
+}
+.item_structure {
+}
+.img_services_structure {
+}
+.services_structure_text {
+}
+.services_structure_p {
+}
+.item_factory {
+}
+.img_services_factory {
+}
+.services_factory_text {
+}
+.services_factory_p {
+}
+
 
 
 
