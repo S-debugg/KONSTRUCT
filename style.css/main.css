@@ -175,6 +175,19 @@ a:hover {
     width: 100%;
     height: auto;
 }
+.text_manage {
+    position: absolute;
+    top: 14%; /* Смещение сверху */
+    left: 30%; /* Смещение слева */
+    transform: translate(-50%, -50%); /* Центрирование */
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    height: auto;
+    padding-left: 25px;
+    /* background-color: rgba(0, 0, 0, 0.5); Затемнение для читаемости */
+    text-transform: uppercase;
+}
 
 
 
