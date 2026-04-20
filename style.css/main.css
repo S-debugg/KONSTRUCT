@@ -277,6 +277,40 @@ button {
     margin-right: 0;
 }
 
+/* get in touch */
+.get_in_touch {
+    background-image: url(../img/bg_get-in-touch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get_in_touch-container {
+    position: relative; /* Контейнер для привязки */
+    display: inline-block; /* Размер контейнера по картинке */
+    color: rgb(31, 29, 29); /* Цвет текста */
+}
+.get_in_touch_text {
+    width: 350px;
+    height: 72px;
+    position: absolute; /* Абсолютное позиционирование текста */
+    top: 50%; /* Сдвиг сверху на 50% */
+    left: 50%; /* Сдвиг слева на 50% */
+    transform: translate(-50%, -50%); /* Точное центрирование */
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    
+}
+.get_in_touch-img {
+}
+.get-in-touch_bt {
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    border: none;
+}
+
 
 
 
