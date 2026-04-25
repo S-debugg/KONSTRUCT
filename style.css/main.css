@@ -285,7 +285,7 @@ button {
 }
 .get_in_touch-container {
     position: relative; /* Контейнер для привязки */
-    display: inline-block; /* Размер контейнера по картинке */
+    /* display: inline-block; Размер контейнера по картинке */
     color: rgb(31, 29, 29); /* Цвет текста */
 }
 .get_in_touch_text {
@@ -303,6 +303,11 @@ button {
     
 }
 .get_in_touch-img {
+}
+.get_in_touch_text_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .get-in-touch_bt {
     width: 150px;
