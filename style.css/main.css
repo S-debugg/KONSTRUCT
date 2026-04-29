@@ -103,6 +103,7 @@ a:hover {
     text-align: center;
     letter-spacing: 2.3px;
     margin-bottom: 10px;
+    padding-top: 13px;
 }
 .line_about {
     width: 50px;
@@ -118,12 +119,14 @@ a:hover {
     margin-right: 70px;
 }
 .h4_about {
-    width: 408px;
+    width: 410px;
     height: 81px;
     font-size: 20px;
     font-weight: 700;
     color: #48555B;
     margin-bottom: 22px;
+    letter-spacing: 1px;
+    line-height: 20px;
 }
 .Konstruct_about {
     color: #16ACE8;
@@ -222,9 +225,15 @@ a:hover {
     border: 2px solid #00A4E5;
     margin-top: 10px;
 }
+.services_project_text, .services_structure_text, .services_factory_text {
+    width: 250px;
+    height: 48px;
+    text-align: left;
+    padding: 3px auto 11px;    
+}
 .p_services {
-    width: 405px;
-    height: 38px;
+    width: 250px;
+    height: 32px;
     font-size: 11px;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -257,21 +266,20 @@ button {
     padding: 32px 206px 27px 23px;
 }
 .services_project_text, .services_structure_text, .services_factory_text {
+    width: 250px;
+    height: 48px;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.43px;
     line-height: 24px;
-    /* margin-bottom: 11px; */
+    margin: 10px auto 15px;
 }
 .services_project_p, .services_structure_p, .services_factory_p {
-    /* width: 250px;
-    height: 92px; */
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 0.25px;
     line-height: 23px;
-    padding: 11px 22px 39px 22px;
 }
 .item_factory {
     margin-right: 0;
@@ -282,11 +290,10 @@ button {
     background-image: url(../img/bg_get-in-touch.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 .get_in_touch-container {
-    position: relative; /* Контейнер для привязки */
-    /* display: inline-block; Размер контейнера по картинке */
-    color: rgb(31, 29, 29); /* Цвет текста */
+    position: relative; 
 }
 .get_in_touch_text {
     width: 350px;
@@ -300,6 +307,7 @@ button {
     line-height: 36px;
     letter-spacing: 0.15px;
     text-align: center;
+    color: rgb(31, 29, 29);
     
 }
 .get_in_touch-img {
@@ -314,7 +322,33 @@ button {
     height: 40px;
     background-color: #00A4E5;
     border: none;
+    padding: 0;
+    position: absolute; /* Абсолютное позиционирование текста */
+    top: 65%; /* Сдвиг сверху на 50% */
+    left: 50%; /* Сдвиг слева на 50% */
+    transform: translate(-50%, -50%); /* Точное центрирование */
 }
+
+/* newsletter */
+.newsletter {
+}
+.container_newsletter {
+}
+.h3_newsletter {
+}
+.mb-3 {
+}
+.form-label {
+}
+.form-control {
+}
+.form-text {
+}
+.text-body-secondary {
+}
+.get-in-touch_bt {
+}
+
 
 
 
