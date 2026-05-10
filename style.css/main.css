@@ -331,10 +331,20 @@ button {
 
 /* newsletter */
 .newsletter {
+    height: 100px;
+    max-width: 100%;
+    background-color: rgba(23, 24, 25, 1);
 }
 .container_newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter_items {
+    margin: 30px auto;
 }
 .h3_newsletter {
+    color: #fff;
 }
 .mb-3 {
 }
