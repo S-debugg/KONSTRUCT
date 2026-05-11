@@ -290,7 +290,6 @@ button {
     background-image: url(../img/bg_get-in-touch.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
 }
 .get_in_touch-container {
     position: relative; 
@@ -336,27 +335,37 @@ button {
     background-color: rgba(23, 24, 25, 1);
 }
 .container_newsletter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+} 
 .newsletter_items {
-    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
 }
 .h3_newsletter {
+    font-size: 22px;
+    letter-spacing: 0.85px;
     color: #fff;
+    margin-right: 70px;
 }
 .mb-3 {
 }
 .form-label {
+    
 }
 .form-control {
+    width: 250px;
+    height: 40px;
 }
 .form-text {
 }
 .text-body-secondary {
 }
 .get-in-touch_bt {
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    border: none;
 }
 
 
