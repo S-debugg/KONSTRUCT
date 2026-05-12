@@ -349,23 +349,18 @@ button {
     margin-right: 70px;
 }
 .mb-3 {
+    display: flex;
 }
-.form-label {
-    
-}
-.form-control {
-    width: 250px;
+.textarea {
+    width: 300px;
     height: 40px;
 }
-.form-text {
-}
-.text-body-secondary {
-}
-.get-in-touch_bt {
+.button_newsletter {
     width: 150px;
     height: 40px;
     background-color: #00A4E5;
-    border: none;
+    color: mintcream;
+    border: 2px solid rgb(225, 175, 8);
 }
 
 
