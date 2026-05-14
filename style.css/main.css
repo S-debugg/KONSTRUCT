@@ -369,8 +369,10 @@ button {
 .footer_container {
 }
 .footer_items {
+    display: flex;
 }
 .footer_item_company {
+    border: 1px solid red;
 }
 .footer_text_item_company {
 }
@@ -379,6 +381,7 @@ button {
 .footer_p_item_company {
 }
 .footer_item_link {
+    border: 1px solid rgb(60, 4, 124);
 }
 .footer_text_item_links {
 }
@@ -405,12 +408,17 @@ button {
 .footer_text_item_news {
 }
 .footer_item_contact {
+    border: 1px solid rgb(4, 92, 41);
 }
 .footer_text_item_address {
 }
 .footer_item_social {
+    width: 25px;
+    height: 18px;
+    border: 1px solid rgb(89, 4, 92);
 }
 .footer_fa {
+    
 }
 .fa-facebook {
 }
@@ -418,6 +426,7 @@ button {
 }
 .fa-google {
 }
+
 .footer_item_copyright {
 }
 .footer_text_item_copyright {
