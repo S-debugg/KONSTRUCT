@@ -365,62 +365,95 @@ button {
 
 /* footer */
 .footer {
+    background-color: #141A20;
 }
 .footer_container {
 }
 .footer_items {
     display: flex;
+    padding-top: 42px;
 }
 .footer_item_company {
+    width: 250px;
+    height: 148px;
     border: 1px solid red;
+    margin: 0px 50px 71px 249px;
+    color:#fff;
 }
 .footer_text_item_company {
+    font-size: 11px;
+    letter-spacing: 0.85px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+    color:#fff;
 }
 .footer_img_item_company {
+    background-image: url(../img/KONSTRU\ T.svg);
+    margin-bottom: 15px;
 }
 .footer_p_item_company {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
 }
 .footer_item_link {
+    width: 262px;
+    height: 150px;
+    display: flex;
+    color: #fff;
+    margin: 0 48px 48px 0;
     border: 1px solid rgb(60, 4, 124);
 }
 .footer_text_item_links {
+    font-size: 11px;
+    text-transform: uppercase;
+    display: inline;
 }
-.footer_text_item_home {
+.footer_content_link {
+    display: flex;
+    margin-top: 12px;
 }
-.footer_text_item_about {
+.left_footer_content_link {
+    width: 76px;
+    height: 125px;
 }
-.footer_text_item_services {
+.center_footer_content_link {
+    width: 52px;
+    height: 75px;
 }
-.footer_text_item_projects {
-}
-.footer_text_item_contact {
-}
-.footer_text_item_faqs {
-}
-.footer_text_item_terms {
-}
-.footer_text_item_careers {
-}
-.footer_text_item_blog {
-}
-.footer_text_item_partner {
-}
-.footer_text_item_news {
+.right_footer_content_link {
+    width: 65px;
+    height: 75px;
 }
 .footer_item_contact {
+    width: 141px;
+    height: 128px;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.85px;
+    color: #fff;
     border: 1px solid rgb(4, 92, 41);
 }
+.footer_text_item_contact {
+    text-transform: uppercase;
+}
 .footer_text_item_address {
+    margin-top: 11px;
 }
 .footer_item_social {
     width: 87px;
     height: 18px;
     border: 1px solid rgb(89, 4, 92);
+    margin-top: 52px;
+    margin-left: 46px;
 }
-.footer_fa {
-    
+i.fa {
+    width: 12px;
+    height: 12px;
+    color: #fff;
 }
 .fa-facebook {
+    
 }
 .fa-twitter {
 }
