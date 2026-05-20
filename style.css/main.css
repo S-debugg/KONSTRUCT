@@ -466,6 +466,7 @@ i.fa {
 }
 .footer_text_item_copyright {
     font-size: 11px;
+    padding: 22px 0 23px 0;
     letter-spacing: 0.85px;
     color: #fff;
     text-align: center;
